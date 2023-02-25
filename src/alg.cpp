@@ -59,7 +59,7 @@ uint64_t sumPrime(uint64_t hbound) {
           break;
         }
     if (flag == true)
-      sum+ = i;
+      sum += i;
     else
       flag = true;
   }

@@ -55,11 +55,11 @@ bool flag=false;
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-  int sum=0;
+  uint64_t sum=0;
   bool flag=true;
-  for(int i=2; i<hbound; i++)
+  for(uint64_t i=2; i<hbound; i++)
   {
-    for(int j=2; j<=i/2; j++)
+    for(uint64_t j=2; j<=i/2; j++)
       if (i%j==0)
         {
           flag=false;
